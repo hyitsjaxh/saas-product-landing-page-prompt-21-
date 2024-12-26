@@ -146,21 +146,122 @@ nav{
   padding: 2rem 3rem;
   font-family: Graphik-Medium;
   display: flex;
+  border-radius: 10px;
+  border: 3px solid  grey;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  background-color: aqua;
+  gap: 20px;
+  text-align: center;
 }
 .bottom .box1 > h1{
-  font-size: 40px;
+  font-size: 50px;
 }
+.bottom .box1 > h5{
+  font-size: 30px;
+}
+.bottom .box1 > h6{
+  font-size: 13px;
+  color: grey;
+}
+.bottom .box1 > p{
+  width: 45%;
+}
+.bottom .box1 > button{
+    width: 70%;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    background-color: #1d85ab;
+    font-family: Graphik-Medium;
+    cursor: pointer;
+  }
+  .bottom .box1 > button:hover{
+    background-color: lightgrey;
+    color: black;
+  }
 .container_2 .box2{
   height: 100%;
   width: 30%;
-  background-color: aqua;
+  padding: 2rem 3rem;
+  font-family: Graphik-Medium;
+  display: flex;
+  border-radius: 9px;
+  border: 3px solid  grey;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
 }
+
+.bottom .box2 > h1{
+  font-size: 50px;
+}
+.bottom .box2 > h5{
+  font-size: 30px;
+}
+.bottom .box2 > h6{
+  font-size: 13px;
+  color: grey;
+}
+.bottom .box2 > p{
+  width: 45%;
+}
+.bottom .box2 > button{
+    width: 70%;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    background-color: #19c254;
+    font-family: Graphik-Medium;
+    cursor: pointer;
+  }
+  .bottom .box2 > button:hover{
+    background-color: lightgrey;
+    color: black;
+  }
 .container_2 .box3{
-  height: 90%;
+  height: 80%;
   width: 30%;
-  background-color: aqua;
+  padding: 2rem 3rem;
+  font-family: Graphik-Medium;
+  display: flex;
+  border-radius: 10px;
+  border: 3px solid  grey;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
 }
+.bottom .box3 > h1{
+  font-size: 50px;
+}
+.bottom .box3 > h5{
+  font-size: 30px;
+}
+.bottom .box3 > h6{
+  font-size: 13px;
+  color: grey;
+}
+.bottom .box3 > p{
+  width: 45%;
+}
+.bottom .box3 > button{
+    width: 70%;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    background-color: #1d85ab;
+    font-family: Graphik-Medium;
+    cursor: pointer;
+  }
+  .bottom .box3 > button:hover{
+    background-color: lightgrey;
+    color: black;
+  }
